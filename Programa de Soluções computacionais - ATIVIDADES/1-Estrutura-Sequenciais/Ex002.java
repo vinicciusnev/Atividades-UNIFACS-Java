@@ -6,7 +6,7 @@ public class Ex002 {
       try(Scanner t = new Scanner(System.in)) {
          System.out.print("Digite um numero: ");
          int num = t.nextInt();
-         System.out.println("O numero digitado foi " + num);
+         System.out.println("O numero informado foi " + num);
       }
    }
 }

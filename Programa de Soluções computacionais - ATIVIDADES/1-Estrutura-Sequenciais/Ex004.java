@@ -13,7 +13,7 @@ public class Ex004 {
          System.out.print("Digite a quarta nota: ");
          float nota4 = t.nextFloat();
          float media = (nota1 + nota2 + nota3 + nota4) / 4;
-         System.out.print("A media é " + media);
+         System.out.println("A media é " + media);
       }
    }
 }

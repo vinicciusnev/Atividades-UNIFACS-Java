@@ -3,9 +3,7 @@ import java.util.Scanner;
 public class Ex003 {
    
    public static void main(String[] args) {
-      double num1;
-      double num2;
-      double resultado;
+      double num1, num2, resultado;
 
       Scanner sc = new Scanner(System.in);
       System.out.print("Digite o primeiro número: ");

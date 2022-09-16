@@ -9,7 +9,7 @@ public class Ex005 {
       System.out.println("------------------------------");
       System.out.print("Digite um valor em Metros: ");
       double metros = t.nextDouble();
-      double cm = metros / 0.01000;
+      double cm = metros * 100;
       System.out.print("O valor em Centímetros é " + cm);
       }
       
