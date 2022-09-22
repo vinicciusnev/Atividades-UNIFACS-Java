@@ -8,7 +8,7 @@ public class ProgramaIMC {
          double peso = t.nextDouble();
          System.out.print("Digite a sua altura(M): ");
          double alt = t.nextDouble();
-         double imc = ((double) peso / Math.pow(alt,2));
+         double imc = peso / Math.pow(alt,2);
          System.out.format("O seu IMC é %.2f || ", imc);
          
          if (imc < 18.5) {

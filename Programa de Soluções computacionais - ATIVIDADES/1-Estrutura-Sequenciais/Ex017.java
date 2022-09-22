@@ -12,7 +12,7 @@ public class Ex017 {
       precoLata = 80;
       precoGaloes = 25;
       
-      metroPorGaloes = (ltPorGaloes * ltPorMetro);
+      metroPorGaloes = ltPorGaloes * ltPorMetro;
       metrosPorLata = ltPorLatas * ltPorMetro;
       Scanner sc = new Scanner(System.in);
       System.out.print("Digite a area a ser pintada(M): ");
@@ -38,6 +38,8 @@ public class Ex017 {
       System.out.println("            Misturando Latas e Galões                  ");
       System.out.println("-------------------------------------------------------");
       System.out.format("Qtd Latas de tinta(18LT): %.0f e Qtd Galões(3,6LT): %.0f | Total: R$ %.2f ", qtdMLatas, qtdRestoGaloes, totalResto);
+
+      
    }
 }
 
