@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class Ex015 {
    
    public static void main(String[] args) {
-      double salarioPorHora, salarioBruto, impostodeRenda, inss, sindicato, salarioLiquido;
+      double salarioPorHora, salarioBruto, impostodeRenda, inss, sindicato;
+      float salarioLiquido;
       int horasTrabalhadas;
 
 
@@ -16,7 +17,7 @@ public class Ex015 {
       impostodeRenda = salarioBruto * 0.11;
       inss = salarioBruto * 0.08;
       sindicato = salarioBruto * 0.05;
-      salarioLiquido = salarioBruto - impostodeRenda - inss - sindicato;
+      salarioLiquido = (float) (salarioBruto - impostodeRenda - inss - sindicato);
       sc.close();
       System.out.println("+ Salário Bruto: R$ " + salarioBruto);
       System.out.println(" - IR(11%): R$ " + impostodeRenda);
