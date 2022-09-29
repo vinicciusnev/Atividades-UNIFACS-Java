@@ -7,7 +7,8 @@ public class App {
         int num1 = sc.nextInt();
         System.out.print("Digite outro número: ");
         int num2 = sc.nextInt();
-
+        sc.close();
+        
         if (num1 > num2) {
             System.out.println("O maior número digitado foi " + num1);
         } else {
