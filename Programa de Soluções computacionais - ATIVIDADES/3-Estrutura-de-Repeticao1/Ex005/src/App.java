@@ -9,12 +9,12 @@ public class App {
         double paisB = sc.nextDouble();
         System.out.print("Informe a taxa de crescimento do 1º País: ");
         double taxa1 = sc.nextDouble();
-        System.out.print("Informe a taxa de crescimeento do 2 País: ");
+        System.out.print("Informe a taxa de crescimeento do 2º País: ");
         double taxa2 = sc.nextDouble();
         double ano = 0;
 
 
-        while ( paisA <= paisB ) {
+        while (paisA <= paisB) {
             paisA += paisA * (taxa1/100);
             paisB += paisB * (taxa2/100);
             ano += 1;
