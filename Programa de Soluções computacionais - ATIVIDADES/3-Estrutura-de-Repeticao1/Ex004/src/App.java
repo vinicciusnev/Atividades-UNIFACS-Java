@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        double paisA = 80000;
+        double paisA = 8000;
         double paisB = 200000;
         double ano = 0;
 

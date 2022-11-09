@@ -14,9 +14,9 @@ public class Ex014 {
       sc.close();
       if (peso > 50) {
          excesso = peso - 50;          
-      }
-      multa = excesso * 4;
-      System.out.format("O peixe ultrapassou %.2f KG, e você deverá pagar R$ %.2f ", excesso, multa);
+         multa = excesso * 4;
+         System.out.format("O peixe ultrapassou %.2f KG, e você deverá pagar R$ %.2f ", excesso, multa);
+   }
 
       //  Peso maximo é 50kg, excedendo o limite de peso, deve pagar R$ 4,00 por kg que passou
       // peso, excesso, multa
