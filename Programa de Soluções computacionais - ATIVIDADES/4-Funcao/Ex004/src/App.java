@@ -20,7 +20,7 @@ public class App {
     public static String umArg(int a) {
         String retorno;
         
-        if (a >= 0) {
+        if (a > 0) {
             retorno = "P";
         } else {
             retorno  = "N";
